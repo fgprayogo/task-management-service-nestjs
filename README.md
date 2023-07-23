@@ -3,26 +3,26 @@
 # Objective
 
 Create a web API for a simple task management system with the following functions:
-● /account/register to register a new staff
-● /account/login to authenticate a staff
-● /task/create to create a new task
-● /task/assign to assign tasks to a staff
-● /task/delete to delete a task
-● /task/complete to mark a task as completed
+- /account/register to register a new staff
+- /account/login to authenticate a staff
+- /task/create to create a new task
+- /task/assign to assign tasks to a staff
+- /task/delete to delete a task
+- /task/complete to mark a task as completed
 
 Requirements :
-● Use Docker-Compose so that the system can be deployed locally
-● Use NodeJS (minimum version 16) and MySQL
-● Provide a database
-● Provide a Postman collection for testing the API functions
-● Use appropriate HTTP codes as responses for various scenario of the API
+- Use Docker-Compose so that the system can be deployed locally
+- Use NodeJS (minimum version 16) and MySQL
+- Provide a database
+- Provide a Postman collection for testing the API functions
+- Use appropriate HTTP codes as responses for various scenario of the API
 requests, e.g: HTTP 200 OK, 401 Unauthorized, etc
-● The business logic and system properties (account and task properties
+- The business logic and system properties (account and task properties
 etc) assumptions to be determined by candidate
-● An admin account to be created initially
-● Ensure that the Docker containers can be deployed cross-platform (at
+- An admin account to be created initially
+- Ensure that the Docker containers can be deployed cross-platform (at
 least Windows and Linux)
-● ZIP the codes.
+- ZIP the codes.
 
 # Prerequisites
 
