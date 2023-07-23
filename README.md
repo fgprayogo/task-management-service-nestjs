@@ -71,14 +71,15 @@ least Windows and Linux)
 `npm run test`
   This command will run the unit test.
 2. Output : 
-- ![Create Token](docs/images/unit-test.png)
+- ![Unit Testing](docs/images/unit-test.png)
 
 ## Integration Test / E2E Test
 1. Type this command
 `npm run test:e2e`
   This command will run the integration test.
 2. Output : 
-- ![Create Token](docs/images/integration-test.png)
+- ![Integration Testing - 1](docs/images/integration-test-1.png)
+- ![Integration Testing - 2](docs/images/integration-test-2.png)
 
 # REST API Documentation
 
