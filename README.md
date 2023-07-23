@@ -65,6 +65,21 @@ least Windows and Linux)
 7. The project will run at
    `http://localhost:3000`
 
+# Testing
+## Unit Test
+1. Type this command
+`npm run test`
+  This command will run the unit test.
+2. Output : 
+- ![Create Token](docs/images/unit-test.png)
+
+## Integration Test / E2E Test
+1. Type this command
+`npm run test:e2e`
+  This command will run the integration test.
+2. Output : 
+- ![Create Token](docs/images/integration-test.png)
+
 # REST API Documentation
 
 1. Go do `docs/api` directory and download the postman file
