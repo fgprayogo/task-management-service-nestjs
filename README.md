@@ -71,15 +71,15 @@ least Windows and Linux)
 `npm run test`
   This command will run the unit test.
 2. Output : 
-- ![Unit Testing](docs/images/unit-test.png)
+- ![Unit Testing - 1](docs/images/unit-test-1.png)
+- ![Unit Testing - 2](docs/images/unit-test-2.png)
 
 ## Integration Test / E2E Test
 1. Type this command
 `npm run test:e2e`
   This command will run the integration test.
 2. Output : 
-- ![Integration Testing - 1](docs/images/integration-test-1.png)
-- ![Integration Testing - 2](docs/images/integration-test-2.png)
+- ![Integration Testing - 1](docs/images/integration-test.png)
 
 # REST API Documentation
 

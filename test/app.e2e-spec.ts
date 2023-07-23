@@ -76,7 +76,7 @@ describe('Task Controller (e2e)', () => {
   /**
    * Assign New Task
    */
-  describe('/task/assign/:id (POST)', () => {
+  describe('/task/assign/:id (PATCH)', () => {
     it('should return updated task if successful', async () => {
       await request(app.getHttpServer()).patch(`/task/assign/${newTaskId}`).set('Authorization', `Bearer ${access_token}`).send({ staff_id: 1 }).expect(200);
     });
@@ -85,7 +85,7 @@ describe('Task Controller (e2e)', () => {
   /**
    * Mark Task As Complete
    */
-  describe('/task/complete/:id (POST)', () => {
+  describe('/task/complete/:id (PATCH)', () => {
     it('should return updated task if successful', async () => {
       await request(app.getHttpServer())
         .patch(`/task/complete/${newTaskId}`)
@@ -98,7 +98,7 @@ describe('Task Controller (e2e)', () => {
   /**
    * Get All Task
    */
-  describe('/task (POST)', () => {
+  describe('/task (GET)', () => {
     it('should return all task if successful', async () => {
       await request(app.getHttpServer()).get('/task').set('Authorization', `Bearer ${access_token}`).expect(200);
     });
@@ -107,7 +107,7 @@ describe('Task Controller (e2e)', () => {
   /**
    * Get Detail of A Task
    */
-  describe('/task/:id', () => {
+  describe('/task/:id (GET)', () => {
     it('should return task detail if successful', async () => {
       await request(app.getHttpServer()).get(`/task/${newTaskId}`).set('Authorization', `Bearer ${access_token}`).send(userData).expect(200);
     });
@@ -116,7 +116,7 @@ describe('Task Controller (e2e)', () => {
   /**
    * Delete a Task
    */
-  describe('/task/delete/:id (POST)', () => {
+  describe('/task/delete/:id (DELETE)', () => {
     it('should return the deleted task if successful', async () => {
       await request(app.getHttpServer()).delete(`/task/delete/${newTaskId}`).set('Authorization', `Bearer ${access_token}`).send(userData).expect(200);
     });
